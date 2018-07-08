@@ -3,7 +3,7 @@ namespace Wesleywmd\Element\Shell;
 
 class Process implements ProcessInterface
 {
-    public function open($command, $descriptors, $pipes, $cwd)
+    public function open($command, $descriptors, &$pipes, $cwd)
     {
         return proc_open($command, $descriptors, $pipes, $cwd);
     }
