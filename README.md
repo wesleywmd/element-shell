@@ -3,11 +3,7 @@ Library for running shell commands.
 
 ## How to install the library
 
-First, add a repository reference to you composer.json file
-
-    composer config repositories.element-shell vcs https://github.com/wesleywmd/element-shell
-    
-Then allow composer to install the library
+Install the library with composer
 
     composer install wesleywmd/element-shell
 
